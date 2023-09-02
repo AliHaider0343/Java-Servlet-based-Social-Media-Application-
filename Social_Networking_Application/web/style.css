@@ -1,0 +1,229 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+
+    background-color: white;
+    font-family:  Arial, sans-serif;
+    padding:5%;
+}
+a
+{
+    text-decoration: none;
+
+}
+body .navigators
+{
+    text-decoration: none;
+    font-size:16px;
+    display: block;
+    text-align:center;
+    margin:10px;
+}
+body h1, h2,h3,h4,h5,h6
+{
+    display:block;
+    text-align: left;
+    margin: 30px 0px;
+    font-family: Arial, sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.register-form, .login-form
+{
+    display: block;
+    border:2px solid gray;
+    width:40%;
+    margin:0px auto;
+    padding:2%;
+}
+.register-form  label, .login-form  label
+{
+    display: block;
+}
+
+.register-form input, .login-form input
+{
+
+    height:40px;
+    border:1px solid gray;
+    width:100%;
+}
+
+.register-form input[type="radio"]
+, .login-form input[type="radio"]
+{
+    height:20px;
+}
+.register-form input[type="submit"]
+, .login-form input[type="submit"]
+
+{
+    background-color: black;
+    color:white;
+}
+
+
+
+
+body header nav ul
+{
+    border:2px solid gray;
+    list-style: none;
+    text-align: center;
+    display: block;
+    ;
+    padding:2%;
+
+}
+
+body header nav ul li
+{
+    display: inline-block;
+    ;
+    padding:2%;
+    text-decoration: none;
+    border:1px solid black;
+    background-color:black;
+    color:white;
+}
+body header nav ul li a
+{
+    color:white;
+    font-weight: 100
+}
+
+.user_profile
+{
+    border: 2px solid black;
+    margin-top:10px;
+    border-radius:20px;
+    display:block;
+    padding:2%;
+    text-align:center;
+}
+.user_profile .left,.user_profile .right
+{
+
+    width: 100%;
+
+}
+.user_profile .left
+{
+    padding:1%;
+}
+table
+{
+    border:1px solid black;
+    width:100%;
+    padding:1%;
+
+}
+
+table  th {
+    padding: 1%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+table tr td
+{
+    padding:1%;
+}
+table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.user_profile .dp
+{
+    width:150px;
+    border: 1px solid black;
+    border-radius:50%;
+
+}
+
+button
+{
+    padding:1% 5%;
+    border: 2px solid black;
+    margin:10px 0px;
+    background-color: black;
+    color:white;
+
+}
+button:disabled
+{
+    opacity:0.6;
+    width:100%;
+    display:block;
+    height:50px;
+
+}
+button:disabled:hover
+{
+    transform: scale(1.0);
+}
+button:hover
+{
+    transform: scale(0.9);
+    transition:0.5s all;
+}
+.card
+{
+    border:1px solid gray;
+    display:flex;
+    padding:1%;
+    margin-bottom:1%;
+    border-radius:15px;
+}
+
+.card .left
+{
+    width:25%;
+    text-align: center;
+    padding-top:5%;
+
+}
+.card .left img
+{
+    width:200px;
+    height:auto;
+    border-radius:50%;
+    border: 2px solid gray;
+
+}
+.card .left img:hover
+{
+    transform:scale(1.1);
+    transition:0.4s ;
+}
+
+.card .right
+{
+    display:block;
+    width: 75%;
+    border-radius:15px;
+
+}
+
+.card .right table
+{
+    width: 100%;
+
+}
+.card .right button
+{
+    display:block;
+    width:100%;
+    height: 50px;
+}
+.search-from{
+    margin-bottom: 30px;
+}
+.search-from input[type='text']
+{
+    height:50px;
+    width:40%;
+}
